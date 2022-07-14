@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    background-color: #000;
+}
+
+.container {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    width: 100vw;
+    margin: auto;
+    height: 100vh;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    height: 2.5rem;
+    font-size: 0.7rem;
+    color: gray;
+}
+
+h1 {
+    font-family: "Sofia", sans-serif;
+}
+
+.nav-logo {
+    width: 2.5rem;
+}
+
+.nav {
+    font-weight: bold;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.nav-items {
+    list-style: none;
+    display: flex;
+
+}
+
+.nav-items>li {
+    padding: 10px;
+}
+
+.main {
+    padding-top: 1rem;
+}
+
+.main>ul {
+    padding-top: 0.8rem;
+}
