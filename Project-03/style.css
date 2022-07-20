@@ -99,12 +99,11 @@ body {
     margin: 0;
     padding: 0;
     margin-top: 3rem;
-    border-radius: 9px;
     white-space: nowrap;
+    border-radius: 9px;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar;
-    
 }
 
 /* .down::-webkit-scrollbar {
