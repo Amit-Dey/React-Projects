@@ -15,16 +15,15 @@ body {
     margin: 0;
     padding: 0;
     width: 100vw;
-    height: 100vh;
-    background: red;
 }
 
 .container_m {
     margin: 0;
     padding: 0;
-    background: blue;
+    background: #F6FBF4;
     width: 100vw;
     max-width: 100vw;
+    padding-bottom: 3rem;
 }
 
 .header {
@@ -36,19 +35,117 @@ body {
 
 .header>div {
     display: flex;
+    align-items: center;
 }
 
 .header>div>img {
     width: 3rem;
     margin-right: 1rem;
+    margin-bottom: 0.5rem;
 }
 
-.header>div>h2{
+.header>div>h2 {
     font-family: 'Karla';
     font-style: normal;
     font-weight: 700;
     font-size: 1.8rem;
     letter-spacing: -0.1em;
     color: #FFFFFF;
-    margin-top: 1`````````````````````rem;
+}
+
+.header>p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: right;
+    color: #FFFFFF;
+
+}
+
+
+.main {
+    margin: 0 10rem;
+}
+
+.input {
+    margin-top: 3rem;
+    align-items: center;
+}
+
+.left_input {
+    border: gray;
+    width: 48%;
+    height: 2.3rem;
+    margin-right: 4%;
+    border-radius: 0.3rem;
+    padding-left: 1rem;
+    border: 1px solid gray
+}
+
+.right_input {
+    border: gray;
+    width: 48%;
+    height: 2.3rem;
+    border-radius: 0.3rem;
+    padding-left: 1rem;
+    border: 1px solid gray
+
+}
+
+.main>button {
+    margin-top: 1.5rem;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    border-radius: 5px;
+    width: 100%;
+    border-width: 0;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main>button>p {
+    margin-top: 1rem;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+    color: #FFFFFF;
+    margin-right: 0.5rem;
+}
+.main>button>img{
+    width: 1.3rem;
+}
+
+.content {
+    margin-top: 3rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.content>img {
+    width: 100%;
+    position: relative;
+}
+
+.content>h1 {
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4rem;
+    color: #FFFFFF;
+    -webkit-text-stroke: 0.2rem  #000000;
+    
+}
+
+.top_heading {
+    margin-top: 5rem;
+}
+
+.bottom_heading {
+    margin-top: 28rem;
 }
